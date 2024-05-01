@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*  Cores: 
+    #0c0f39,
+    #ffff00,
+    #dddddd,
+    #20b2aa,
+    #f08080,
+    #f5f5dc,
+    #3CB371
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Outfit", Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+div{
+    background-color: #1C1C1C;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+div h2{
+    
+    padding: 10px;
+    font-size: 2.4em;
+    color: azure;
+    text-shadow: 1px 1px black;
+    letter-spacing: 2px;
+    
+}
+
+input{
+    font-weight: bold;
+    
+    margin-top: 20px;
+    padding: 5px;
+
+    height: 40px;
+    width: 150px;
+    
+    background-color: #22222200;
+
+    border-style: double;
+    border-color: #222;
+    border-radius: 3px;
+
+    letter-spacing: 3px;
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: #1C1C1C;
+    color: rgb(240, 248, 255);
+
+    transition: all .5s;
+}
+
+
+input:focus{
+    border-color: rgb(33, 155, 155);
+
+    transition: all .4s;
+}
