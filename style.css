@@ -39,7 +39,7 @@ div{
     border-radius: 5px;
     text-align: center;
     align-items: center;
-    
+    box-shadow: 1px 1px 3px #1C1C1C;
 }
 
 div h2{
@@ -64,7 +64,7 @@ input{
     background-color: #22222200;
 
     border-style: double;
-    border-color: #222;
+    border-color: #2222226f;
     border-radius: 3px;
 
     letter-spacing: 3px;
@@ -80,7 +80,6 @@ input:hover{
 
 
 input:focus{
-    border-color: rgb(33, 155, 155);
-
-    transition: all .4s;
+    border-style: ridge;
+    transition: all .8s;
 }
