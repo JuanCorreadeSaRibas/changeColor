@@ -32,11 +32,13 @@ body{
 
     font-family: "Outfit", Helvetica, sans-serif;
     flex-direction: column;
+    padding: 20px;
 }
 
 div{
     background-color: #1C1C1C;
     border-radius: 5px;
+    justify-content: center;
     text-align: center;
     align-items: center;
     box-shadow: 1px 1px 3px #1C1C1C;
@@ -55,16 +57,18 @@ div h2{
 input{
     font-weight: bold;
     
+    height: 38px;
+    width: 150px;
     margin-top: 20px;
     padding: 5px;
 
-    height: 40px;
-    width: 150px;
     
     background-color: #22222200;
 
-    border-style: double;
-    border-color: #2222226f;
+    text-wrap: nowrap;
+
+    border-style: ridge;
+    border-color: #2927279a;
     border-radius: 3px;
 
     letter-spacing: 3px;
@@ -80,6 +84,6 @@ input:hover{
 
 
 input:focus{
-    border-style: ridge;
-    transition: all .8s;
+    border-style: outset;
+    transition: all .8s ease; 
 }
